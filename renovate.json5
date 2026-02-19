@@ -10,7 +10,7 @@
       datasourceTemplate: "go",
       matchStrings: [
         // Matches: replace pro-lib => <module> <version>
-        "replace\\s+pro-lib\\s+=>\\s+(?<depName>github\\.com\\/ns-rpro-dev-tests\\/golang-pro-lib\\/libs\\/src\\/ns)\\s+(?<currentValue>v[^\\s]+)"
+        "replace\\s+pro-lib\\s+=>\\s+(?<depName>[^\\s]+)\\s+(?<currentValue>v[^\\s]+)"
       ]
     }
   ],
