@@ -5,7 +5,7 @@
       customType: "regex",
       description: "Update go.mod replace target for pro-lib",
       managerFilePatterns: [
-        "(^|/)go\\.mod$"
+        "go\\.mod"
       ],
       datasourceTemplate: "go",
       matchStrings: [
@@ -14,7 +14,7 @@
       ]
     }
   ],
-  "packageRules": [
+  /*"packageRules": [
     {
       "matchManagers": [
         "gomod"
