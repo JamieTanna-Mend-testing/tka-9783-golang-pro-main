@@ -23,7 +23,10 @@
       "commitMessageSuffix": " [tidy]",
       "postUpgradeTasks": {
         "commands": [ "install-tool golang 1.25.5", "go mod tidy" ], // fails due to missing 'go' binary
-        "fileFilters": [ "go\\.mod" ],
+        "fileFilters": [
+          "go\\.mod",
+          "go\\.sum"
+        ],
         "executionMode": "update",
       },
     },
