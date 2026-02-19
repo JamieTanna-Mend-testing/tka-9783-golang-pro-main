@@ -17,7 +17,7 @@
   "packageRules": [
     {
       "matchPackageNames": [
-        "github.com/ns-rpro-dev-tests/golang-pro-lib/libs/src/ns"
+        "/^github\\.com\\/ns-rpro-dev-tests\\/golang-pro-lib\\/libs\\/src\\/ns$/"
       ],
       "postUpdateOptions": [
         "gomodTidy"
