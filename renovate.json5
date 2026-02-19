@@ -1,15 +1,14 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
 
-  /*
-  ,"packageRules": [
+  "packageRules": [
     {
       "matchManagers": ["gomod"],
       "matchPackageNames": [
         "pro-lib"
       ],
-      "overridePackageName": "github.com/ns-rpro-dev-tests/golang-pro-lib/libs/src/ns"
+      "overridePackageName": "github.com/ns-rpro-dev-tests/golang-pro-lib"
     }
   ]
-  */
+  /**/
 }
