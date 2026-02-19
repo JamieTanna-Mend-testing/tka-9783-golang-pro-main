@@ -23,6 +23,15 @@
         "gomodTidy"
       ],
       "commitMessageSuffix": " [tidy]",
+      "postUpgradeTasks": {
+        "commands": [
+          "go mod tidy"
+        ],
+        "fileFilters": [
+          "go\\.mod"
+        ],
+        "executionMode": "update",
+      }
     },
     {
       "matchManagers": [
