@@ -22,6 +22,7 @@
       "postUpdateOptions": [
         "gomodTidy"
       ],
+      "commitMessageSuffix": " [tidy]",
     },
     {
       "matchManagers": [
