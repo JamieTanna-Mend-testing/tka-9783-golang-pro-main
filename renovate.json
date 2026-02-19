@@ -2,5 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "local>ns-rpro-dev-tests/renovate-config"
+  ],
+
+  "packageRules": [
+    {
+      "matchManagers": ["gomod"],
+      "matchPackageNames": [
+        "pro-lib"
+      ],
+      "overridePackageName": "github.com/ns-rpro-dev-tests/golang-pro-lib/libs/src/ns"
+    }
   ]
 }
