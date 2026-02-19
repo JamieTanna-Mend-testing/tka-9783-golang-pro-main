@@ -11,6 +11,9 @@
       matchStrings: [
         // Matches: replace pro-lib => <module> <version>
         "replace\\s+pro-lib\\s+=>\\s+(?<depName>[^\\s]+)\\s+(?<currentValue>v[^\\s]+)"
+      ],
+      "postUpdateOptions": [
+        "gomodTidy"
       ]
     }
   ],
