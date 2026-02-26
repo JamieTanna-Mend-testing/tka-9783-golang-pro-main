@@ -1,4 +1,4 @@
-module github.com/ns-rpro-dev-tests/golang-pro-main
+module github.com/JamieTanna-Mend-testing/tka-9783-golang-pro-main
 
 go 1.25.5
 
